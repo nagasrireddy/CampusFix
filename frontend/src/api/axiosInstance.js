@@ -10,10 +10,10 @@
 
 import axios from 'axios';
 import { getSession, clearSession } from '../utils/storage';
-
+console.log("VITE_API_URL =", import.meta.env.VITE_API_URL);
 const api = axios.create({
-  baseURL: '/api',
-  headers: { 'Content-Type': 'application/json' },
+  baseURL: import.meta.env.VITE_API_URL,
+  withCredentials: true,
 });
 
 api.interceptors.request.use((config) => {
