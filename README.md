@@ -11,6 +11,9 @@ and infrastructure issue reporting on a college campus.
 | Admin      | View all tickets, triage priority, assign technicians, monitor KPI metrics    |
 | Technician | Mobile-friendly personal queue, move tickets to In Progress / Resolved        |
 
+#Live Link
+https://campus-fix-self.vercel.app
+
 ## Tech Stack
 
 - **Frontend:** React (Vite), Tailwind CSS, React Router, Axios, React Hook Form
